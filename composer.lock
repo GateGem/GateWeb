@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "93a61986670a50068d21edefab1eab46",
+    "content-hash": "95f10b7177cbd6f4c4b93567397f80bc",
     "packages": [
         {
             "name": "brick/math",
@@ -506,23 +506,22 @@
         },
         {
             "name": "gategem/core",
-            "version": "dev-main",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/GateGem/core.git",
-                "reference": "336632788fafbe5c4483bfe224d0d46f8795ad72"
+                "reference": "d858a17ff008163f06d20ba275ef01aab6e09342"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/GateGem/core/zipball/336632788fafbe5c4483bfe224d0d46f8795ad72",
-                "reference": "336632788fafbe5c4483bfe224d0d46f8795ad72",
+                "url": "https://api.github.com/repos/GateGem/core/zipball/d858a17ff008163f06d20ba275ef01aab6e09342",
+                "reference": "d858a17ff008163f06d20ba275ef01aab6e09342",
                 "shasum": ""
             },
             "require": {
                 "laravel/framework": "^9",
                 "livewire/livewire": "^2.10"
             },
-            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -552,18 +551,18 @@
                     "role": "Developer"
                 }
             ],
-            "description": "This is Lara Platform Core",
+            "description": "laravel support module plugin theme hook. like wordpress.",
             "homepage": "https://github.com/GateGem/core",
             "keywords": [
                 "GateGem",
-                "Lara Platform",
+                "GateGem Platform",
                 "core",
                 "laravel",
                 "wordpress"
             ],
             "support": {
                 "issues": "https://github.com/GateGem/core/issues",
-                "source": "https://github.com/GateGem/core/tree/main"
+                "source": "https://github.com/GateGem/core/tree/v1.0.0"
             },
             "funding": [
                 {
@@ -575,68 +574,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2022-12-05T09:44:15+00:00"
-        },
-        {
-            "name": "gategem/generator",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/GateGem/generator.git",
-                "reference": "702d036d0255d5db5e36945732c219c0ffad81b7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/GateGem/generator/zipball/702d036d0255d5db5e36945732c219c0ffad81b7",
-                "reference": "702d036d0255d5db5e36945732c219c0ffad81b7",
-                "shasum": ""
-            },
-            "require": {
-                "gategem/core": "*"
-            },
-            "default-branch": true,
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "GateGem\\Generator\\GeneratorServiceProvider"
-                    ],
-                    "aliases": {
-                        "GateGemGenerator": "GateGem\\Generator\\Facades\\Generator"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "GateGem\\Generator\\": "src",
-                    "GateGem\\Generator\\Database\\Factories\\": "database/factories"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nguyen Van Hau",
-                    "email": "nguyenvanhau.soft@gmail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "GateGem/generator support command generator module plugin theme and file",
-            "homepage": "https://github.com/GateGem/generator",
-            "keywords": [
-                "GateGem",
-                "Lara Platform",
-                "core",
-                "laravel",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/GateGem/generator/issues",
-                "source": "https://github.com/GateGem/generator/tree/main"
-            },
-            "time": "2022-12-05T08:53:00+00:00"
+            "time": "2022-12-05T11:15:06+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -8033,10 +7971,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "gategem/core": 20,
-        "gategem/generator": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
